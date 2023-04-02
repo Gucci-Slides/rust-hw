@@ -17,3 +17,6 @@ aws lambda invoke \
   --payload '{"command": "Say Hi!"}' \
   output.json
 ```
+
+Referenced this repo
+https://github.com/awslabs/aws-lambda-rust-runtime#2-deploying-the-binary-to-aws-lambda
