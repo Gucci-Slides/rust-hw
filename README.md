@@ -18,5 +18,9 @@ aws lambda invoke \
   output.json
 ```
 
+###CloudWatch Logs
+Duration: 1.43 ms    Billed Duration: 27 ms    Memory Size: 128 MB    Max Memory Used: 15 MB    Init Duration: 24.94 ms
+Note the bill duration is higher since a Docker image is built
+
 Referenced this repo
 https://github.com/awslabs/aws-lambda-rust-runtime#2-deploying-the-binary-to-aws-lambda
